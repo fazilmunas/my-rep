@@ -1,0 +1,151 @@
+body {
+  background-color: none !important;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.panel {
+  margin-top: 30px;
+}
+
+.textfield {
+  border: 1px solid #dedede;
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px 10px;
+  width: 125px;
+  margin-left: 15px;
+}
+
+.repayment-date {
+  margin: 15px;
+  width: 320px;
+  font-size: 12px;
+}
+
+.slider-minus, .slider-plus {
+  cursor: pointer;
+}
+
+.loan-sliders input {
+  width: 60%;
+  border: none;
+}
+
+.glyphicon {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.summary {
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0px 20px 25px;
+}
+
+.title {
+  font-size: 14px;
+  float: left;
+  width: 80px;
+  text-align: left;
+}
+
+.number {
+  font-size: 20px;
+  /*float: left;*/
+}
+
+.operator {
+  padding-left: 0px;
+  padding-right: 10px;
+  float: left;
+  /*margin: 15px 20px 0px 0px;*/
+}
+
+.loan-total {
+  font-weight: bold;
+}
+
+#how-much .slider-selection, #how-long .slider-selection {
+	background: #f1592a;
+}
+#how-much .slider-handle, #how-long .slider-handle {
+	background: #f1592a;
+}
+#how-much, #how-long {
+  width: 65%;
+}
+
+@media screen and (min-width: 480px) {
+  h2 {
+    font-size: 30px;
+  }
+  
+  #how-much, #how-long {
+  width: 70%;
+}
+  
+  .repayment-date {
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 20px;
+    width: 100px;
+  }
+  
+  .number {
+    font-size: 26px;
+  }
+  
+  .operator {
+    font-size: 26px;
+    padding-left: 5px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 797px) {
+  
+  #how-much, #how-long {
+  width: 85%;
+}
+    
+.title {
+  font-size: 20px;
+}
+
+.number {
+  font-size: 30px;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .textfield {
+  margin: 0px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+  
+  #how-much, #how-long {
+  width: 90%;
+}
+  
+  .repayment-date {
+  position: absolute;
+  right: 170px;
+  top: 36px;
+  margin: 0px;
+}
+  
+  .operator {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px 40px 0px 25px;
+}
+}

@@ -1,0 +1,130 @@
+/* ## MEDIA QUERIES. DO NOT PLACE ANY REGULAR CSS CODE HERE #################################################### */
+@media all and (max-width: 1500px) {
+	#pageHeading h3 {
+		padding-left: 0px;
+	}
+}
+@media all and (max-width: 1157px) {
+	.verticalDivider {
+		display: none;
+	}
+	#partnerBenefits div {
+		max-width: 100%;
+		float: none !important;
+		margin-left: 10px;
+		padding-top: 5px;
+	}
+}
+
+@media all and (max-width: 975px) { 
+	#formChroma {
+		margin: 109px auto;
+	}
+	#copyRightAndNMLS {
+		text-align: center;
+	}
+	#copyRightAndNMLS span {
+		display: block;
+		float: none !important;
+	}
+	.crossedText{
+		display:none;
+	}
+	#pageHeading {
+		display: none;
+	}
+}
+
+@media all and (max-width: 743px) { 
+	header {
+		text-align: center;
+		margin: 0px auto 0 auto;
+		padding:0px;
+	}
+
+	#greetNGuide {
+		left: auto;
+		float: none;
+		margin: 95px auto 0 auto;
+	}
+}
+
+@media all and (max-width: 576px) { /* Has an extra scrollbar's width's worth of pixels. Find out why it was needed. */
+
+	.widthControlledCanvas{
+		overflow: hidden;
+	}
+	#formChroma {
+		width: 100%;
+		padding: 4px;
+		margin-top: 73px;
+	}
+	#loanFormContainer {
+		min-width: 308px;
+		font-size: 16px;
+	}
+		#loanFormContainer h1 {
+			font-size: 28px;
+		}
+		#loanFormContainer h3 {
+			font-size: 20px; font-weight: normal;
+		}
+		#loanFormContainer p {
+			margin: 0.5em 0;
+		}
+		#loanFormContainer input[type=button],
+		#loanFormContainer input[type=submit] {
+			width: 120px;
+			font-size: 16px;
+			margin: 0 8px 28px 8px;
+		}
+
+		#loanFormContainer #loanForm {
+			width: 95%;
+			line-height: 1em;
+		}
+		#loanFormContainer input[type=text],
+		#loanFormContainer select {
+			width: 100%;
+			margin-bottom: 12px;
+		}
+		#greetNGuide {
+		left: auto;
+		float: none;
+		margin: 95px auto 0 auto;
+		width:100%;
+	}
+		#customerBenefits {
+	/*width: 310px;*/ width: 100%; 
+	/*height:900px;*/ height: auto;
+}
+		#CTAMessage {
+			padding-top:60px;
+		}
+		#finePrint {
+    padding: 30px 20px;
+}
+		#PanelTwoBG {
+			height:900px;
+		}
+		#pageHeading{
+			display:none;
+		}
+		#greetNGuide p{
+			margin:0px;
+		}
+	
+	#loanFormContainer #FirstName { width: 45%; margin-right: 4px; }
+	#loanFormContainer #LastName { width: 53%; }
+	
+	/* TEMPORARY DEMO STYLES 
+	#pageFaderOverlay {
+		display: none;
+	}
+	#megaFooter {
+		display: none;
+	}
+	nav {
+		display: none;
+	}*/
+}

@@ -1,0 +1,524 @@
+h4 {
+	margin-bottom: 2px;
+}
+
+.rate {
+	width: 70px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.term {
+	width: 150px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.monthly-payment{
+	text-align: center;
+}
+.monthly-payment span {
+	color: #92BC35;
+	font-weight: bold;
+}
+
+/*table*/
+.calculator-table {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 1px solid #000000;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+	.calculator-table table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.calculator-table tr:last-child td:last-child {
+		-moz-border-radius-bottomright: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+
+	.calculator-table table tr:first-child td:first-child {
+		background-color: #92bc35;
+		color: #fff;
+		-moz-border-radius-topleft: 0px;
+		-webkit-border-top-left-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+
+	.calculator-table table tr:first-child td:last-child {
+
+		-moz-border-radius-topright: 0px;
+		-webkit-border-top-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+
+	.calculator-table tr:last-child td:first-child {
+		-moz-border-radius-bottomleft: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+
+	.calculator-table tr:hover td {
+	}
+
+	.calculator-table tr:nth-child(odd) {
+		background-color: #e5e5e5;
+	}
+
+	.calculator-table tr:nth-child(even) {
+		background-color: #ffffff;
+	}
+
+	.calculator-table td {
+		vertical-align: middle;
+		border: 1px solid #000000;
+		border-width: 0px 1px 1px 0px;
+		text-align: left;
+		padding: 7px;
+		font-size: 12px;
+		color: #000000;
+	}
+
+	.calculator-table tr:last-child td {
+		border-width: 0px 1px 0px 0px;
+	}
+
+	.calculator-table tr td:last-child {
+		border-width: 0px 0px 1px 0px;
+	}
+
+	.calculator-table tr:last-child td:last-child {
+		border-width: 0px 0px 0px 0px;
+	}
+
+	.calculator-table tr:first-child td {
+		background-color: #92bc35;
+		color: #fff;
+		border: 0px solid #000000;
+		text-align: center;
+		border-width: 0px 0px 1px 1px;
+		font-size: 14px;
+	}
+
+	.calculator-table tr:first-child td:first-child {
+		border-width: 0px 0px 1px 0px;
+        width: 25%;
+	}
+
+	.calculator-table tr:first-child td:last-child {
+		border-width: 0px 0px 1px 1px;
+	}
+/*end table*/
+
+#PanelOneBG {
+	position: absolute;
+	top: 0;
+	height: 800px;
+	min-width: 100%;
+	max-width: 100%;
+	background: url(../images/man-phone-BG.jpg) no-repeat center right;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -1;
+}
+
+
+#PanelThreeBG {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	background: url(../images/girl-laptop-BG.jpg) no-repeat center bottom;
+	/*bkdrop-hopefulCouple.jpg cc-guy-lake.jpg cc-woman-rain.jpg cc-family-footer.jpg cover contain*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -1;
+}
+
+#sliderimage {
+	min-width: 100%;
+	max-width: 100%;
+	background-color: #658823;
+	/*bkdrop-hopefulCouple.jpg cc-guy-lake.jpg cc-woman-rain.jpg cc-family-footer.jpg cover contain*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -1;
+}
+
+.Panel {
+	position: relative;
+	color: white;
+	box-shadow: rgba(80, 70, 70, 0.2) 0px 5px 10px;
+	overflow: hidden;
+}
+
+.crossedText {
+	position: absolute;
+	top: 500px;
+}
+
+#greetNGuide {
+	position: relative;
+	left: -10px;
+	width: 367px;
+	color: white;
+	background-color: rgba(35, 31, 32, 0.85);
+	font-family: "Open Sans", sans-serif;
+	text-shadow: 0px 0 8px black;
+	text-align: center;
+	float: right;
+	padding: 12px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.largeGnG {
+	width: 550px !important;
+}
+
+#greetNGuide h1 {
+	font-size: 40px;
+	font-weight: 200;
+	letter-spacing: -0.02em;
+}
+
+.largeh1 {
+	font-size: 54px !important;
+	font-weight: 100 !important;
+}
+
+#greetNGuide h3 {
+	font-size: 22px;
+}
+
+.largeh3 {
+	font-size: 30px !important;
+}
+
+#greetNGuide label {
+	display: block;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#greetNGuide p {
+	margin: 0.8em 0;
+}
+
+.formText {
+	font-size: 28px;
+	font-family: proximanova;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#formContainer a {
+	color: white;
+}
+
+#greetNGuide #loanForm {
+	width: 395px;
+	text-align: left;
+	line-height: 1.5em;
+	margin: 18px auto;
+}
+
+#greetNGuide select {
+	width: 90%;
+	color: rgb(80, 81, 87);
+	background-color: rgba(204, 204, 204, 0.7);
+	font-family: "Open Sans";
+	font-weight: normal;
+	border: solid 1px rgb(176, 176, 177);
+	border-radius: 5px;
+	padding: 6px 14px 8px 14px;
+	margin: 5px 10px 20px 10px;
+	-webkit-appearance: menulist;
+}
+
+#greetNGuide input[type=text] {
+	width: 90%;
+	color: rgb(80, 81, 87);
+	background-color: rgba(204, 204, 204, 0.7);
+	-webkit-appearance: none;
+	appearance: none;
+	font-family: "Open Sans";
+	font-weight: normal;
+	border: solid 1px rgb(176, 176, 177);
+	border-radius: 5px;
+	padding: 6px 14px 8px 14px;
+	margin: 5px 10px 10px 10px;
+}
+
+.ie8 #greetNGuide input[type=text],
+.ie8 #greetNGuide select {
+	background-color: rgb(209, 209, 210);
+}
+
+/*#greetNGuide #FirstName { width: 180px; margin-right: 4px; }
+	#greetNGuide #LastName { width: 210px; }*/
+#greetNGuide #statesDDContainer-LMP {
+	display: block;
+}
+/* To support the initial default of "Personal" loans pre-selected. */
+#greetNGuide #statesDDContainer-LMB {
+	display: none;
+}
+
+#greetNGuide input[type=radio] {
+	vertical-align: baseline;
+	-webkit-appearance: radio;
+	appearance: radio;
+}
+
+input[type=button],
+input[type=submit] {
+	width: 150px;
+	font-family: "proximanova";
+	font-size: 18px;
+	font-weight: normal;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	appearance: none;
+	padding: 12px 12px 10px 12px;
+	margin: 0 18px 28px 8px;
+}
+
+.btn-primary {
+	color: white;
+	background-color: #658823;
+	text-shadow: 1px 1px 2px rgb(58, 85, 7);
+}
+
+	.btn-primary:hover {
+		background-color: #93BE36;
+	}
+
+#greetNGuide .btn-secondary {
+	color: white;
+	background-color: rgba(178, 180, 186, 0.3);
+	/*border: solid 1px rgb(90, 90, 91);*/
+	/*text-shadow: 1px 1px 2px rgb(38, 38, 39);*/
+}
+
+	#greetNGuide .btn-secondary:hover {
+		background-color: rgba(178, 180, 186, 0.5);
+	}
+
+.ie8 #greetNGuide .btn-secondary:hover {
+	color: rgb(234, 234, 235);
+}
+
+.tabHead {
+	position: relative;
+	top: +32px; /*To push the tabhead over onto the next panel*/
+}
+
+.number {
+	color: #658823;
+	font-weight: 500;
+	font-size: 32px;
+}
+
+#problemDescription {
+	max-width: 1080px;
+	color: rgb(74, 74, 73);
+	font-size: 18px;
+	text-align: center;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+	#problemDescription div {
+		max-width: 770px;
+		margin: 0 auto;
+	}
+
+		#problemDescription div p {
+			line-height: 1.6em;
+			margin: 30px;
+		}
+
+	#problemDescription ul li {
+		list-style-type: disc;
+		color: black;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+		list-style-position: inside;
+		margin: 0 0 15px 24px;
+		padding-left: 6px;
+	}
+
+#customerBenefits {
+	/*width: 500px;*/ /*height: 673px;*/ /*Same as the height for "#PanelTwoBG"*/
+	font-size: 20px;
+	padding: 10px;
+}
+
+	#customerBenefits span {
+		/*color:white;*/
+	}
+
+	#customerBenefits ul {
+		list-style: disc;
+		font-family: 'Open Sans';
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+		#customerBenefits ul li {
+			margin: 0 0 20px 24px;
+			padding-left: 6px;
+			color: #92bc35;
+		}
+
+	#customerBenefits h2 {
+		margin-bottom: 30px;
+	}
+
+#partnerBenefits {
+	font-family: 'Proximanova';
+	max-width: 1220px;
+	color: rgb(74, 74, 73);
+	font-size: 18px;
+	text-align: left;
+	padding-top: 40px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+	#partnerBenefits div {
+		max-width: 570px;
+		text-align: center;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+
+		#partnerBenefits div p {
+			line-height: 1.6em;
+			/*margin: 30px;*/
+			font-size: 18px;
+		}
+
+	#partnerBenefits h3 {
+		font-size: 32px;
+		color: #4a4a49;
+		font-weight: 400;
+		margin-bottom: 10px;
+	}
+
+.fireBrick {
+	color: red;
+}
+
+.verticalDivider {
+	display: inline-block;
+	width: 1px;
+	height: 240px;
+	background-color: rgb(230, 230, 230);
+	margin-top: 65px !important;
+	padding: 0 !important;
+}
+
+#pageHeading {
+	position: absolute;
+	text-align: left;
+	width: 60%;
+	height: 200px;
+	top: 510px;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+	#pageHeading h3 {
+		font-family: 'Proximanova';
+		font-size: 34px;
+		padding: 10px 0px 10px 350px;
+		margin-bottom: 0px;
+	}
+
+.box2-text {
+	text-align: center;
+	color: #92bc35;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+#CTAMessage {
+	height: 496px;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	padding-top: 140px;
+}
+
+.legal {
+	padding: 10px 0px 10px 0px;
+}
+
+	.legal a {
+		color: rgb(165, 206, 80);
+		font-size: 12px;
+		padding: 0 5px 0 5px;
+	}
+
+/* ## ALLSTAR CUSTOM MSGBUBBLE ############################################################################################ */
+.msgBubbleCustom { /* These need to overwrite the ones in ALLSTAR under all circumstances so a lot of !important declarations. */
+	position: relative;
+	height: 37px !important;
+	color: rgb(160, 45, 45) !important;
+	background-color: rgba(235, 210, 205, 0.85) !important;
+	//rgba(235, 180, 175, 0.85);
+	font-size: 14px !important;
+	text-shadow: 0px 0px 4px white !important;
+	white-space: nowrap;
+	border: solid 1px rgba(200, 132, 142, 0.8) !important;
+	border-radius: 5px !important;
+	padding-right: 17px !important;
+}
+
+	.msgBubbleCustom:before {
+		content: "" !important;
+	}
+
+	.msgBubbleCustom:after {
+		position: relative !important;
+		top: 3px !important;
+		left: 8px !important;
+		line-height: 2em;
+	}
+/* ######################################################################################################################## */
+
+
